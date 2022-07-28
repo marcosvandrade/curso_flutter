@@ -1,4 +1,5 @@
 gradle-wrapper.jar
+/.dart_tool
 /.gradle
 /captures/
 /gradlew
@@ -11,3 +12,21 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
