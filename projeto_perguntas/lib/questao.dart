@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import './resposta.dart';
 
 class Questao extends StatelessWidget {
   final String texto;
@@ -10,10 +9,10 @@ class Questao extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      margin: const EdgeInsets.all(20),
+      margin: const EdgeInsets.all(10),
       child: Text(
         texto,
-        style: const TextStyle(fontSize: 20),
+        style: const TextStyle(fontSize: 28),
         textAlign: TextAlign.center,
       ),
     );
