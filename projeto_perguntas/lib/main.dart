@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './questao.dart';
 import './resposta.dart';
+import './resultado.dart';
 
 void main() {
   runApp(const PerguntaApp());
@@ -60,7 +61,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
                   ...respostas.map((t) => Resposta(t, _responder)).toList(),
                 ],
               )
-            : null,
+            : const Resultado(),
       ),
     );
   }
